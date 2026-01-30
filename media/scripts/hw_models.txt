@@ -1,6 +1,10 @@
 module Base
 {
 
+
+    /* ------ ------ ------ ------ ------ */
+
+
     model KS_GanjangBab
     {
         mesh = WorldItems/KS_GanjangBab,
@@ -33,6 +37,13 @@ module Base
         scale = 0.12,
     }
 
+    model KS_WitchSoup_Box
+    {
+        mesh = WorldItems/KS_Box,
+        texture = WorldItems/KS_WitchSoup_Box,
+        scale = 0.12,
+    }
+
     /* ------ ------ ------ ------ ------ */
 
     model KS_SamgyeTang
@@ -46,6 +57,13 @@ module Base
     {
         mesh = WorldItems/KS_SamgyeTang_Ground,
         texture = WorldItems/KS_SamgyeTang,
+        scale = 0.12,
+    }
+
+    model KS_SamgyeTang_Box
+    {
+        mesh = WorldItems/KS_Box,
+        texture = WorldItems/KS_SamgyeTang_Box,
         scale = 0.12,
     }
 

@@ -66,6 +66,16 @@ module Base
         Tooltip = 신선한 채소를 가득 넣어 끓여낸 마녀수프. 몸과 마음을 가볍게 채워준다.,
     }
 
+    item WitchSoupBox
+    {
+        DisplayName = WitchSoup Box,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 5,
+        Icon = WitchSoupBox,
+        WorldStaticModel = KS_WitchSoup_Box,
+        StaticModel = KS_WitchSoup_Box,
+    }
 
     /* ------ ------ ------ ------ ------ */
 
@@ -138,16 +148,6 @@ module Base
     StaticModel = GanjangBabBox,
     }
 
-    item WitchSoupBox
-    {
-    DisplayName = WitchSoup Box,
-    DisplayCategory = Normal,
-    Type = Normal,
-    Weight = 5,
-    Icon = WitchSoupBox,
-    WorldStaticModel = WitchSoupBox,
-    StaticModel = WitchSoupBox,
-    }
 
     item MisutGaruBox
     {
