@@ -24,5 +24,5 @@ TrailingHeat = TrailingHeat or {}
 
 function OnEat_WarmFood(food, pl, percent)
     TrailingHeat.doTrailingHeat()
-    OnEat_KS_Recovery_Disease(food, pl, percent)
+    return OnEat_KS_Recovery_Disease(food, pl, percent)
 end

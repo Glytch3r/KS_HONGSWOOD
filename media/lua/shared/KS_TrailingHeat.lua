@@ -44,15 +44,15 @@ function TrailingHeat.addHeat(pl)
         sq:getX(),
         sq:getY(),
         sq:getZ(),
-        1,
-        30
+        8,
+        61.5
     )
     getCell():addHeatSource(TrailingHeat.HeatSource)
 end
 
 function TrailingHeat.update(pl)
     TrailingHeat.ticks = TrailingHeat.ticks + 1
-    if TrailingHeat.ticks % 60 ~= 0 then return end
+    if TrailingHeat.ticks % 2 ~= 0 then return end
     pl:getModData()['TrailingHeat'] = pl:getModData()['TrailingHeat'] or false
     TrailingHeat.delHeat()
     if pl:getModData()['TrailingHeat'] then
@@ -66,7 +66,8 @@ Events.OnPlayerUpdate.Add(TrailingHeat.update)
 function TrailingHeat.doTrailingHeat()
     local pl = getPlayer() 
     pl:getModData()['TrailingHeat'] = true
-    TrailingHeat.pause(5, function()
+    TrailingHeat.pause(30, function()
+        print('Warm Effect Woreoff')
         pl:getModData()['TrailingHeat'] = false
     end)
 end
