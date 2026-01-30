@@ -1,0 +1,185 @@
+module Base
+{
+
+    item GanjangBab
+    {
+        DisplayName	= Ganjang Bab,
+        DisplayCategory = Food,
+        IsCookable = false,
+        Type = Food,
+        EatType = 2handbowl,
+        CustomEatSound = EatingSoup,
+        Icon = GanjangBab,
+        StaticModel = KS_GanjangBab,
+        WorldStaticModel = KS_GanjangBab_Ground,
+        Weight = 0.1,
+        HungerChange = -30,
+        UnhappyChange = -20,
+        StressChange = -20,
+        Calories = 3000,
+        Carbohydrates = 30,
+        Lipids = 4,
+        Proteins = 1.8,
+        Tooltip = 따뜻한 간장계란밥. 허기뿐 아니라 마음까지 채워준다.,
+    }
+
+    item SamgyeTang
+    {
+        DisplayName	= SamgyeTang,
+        DisplayCategory = Food,
+        IsCookable = false,
+        Type = Food,
+        EatType = 2handbowl,
+        Icon = SamgyeTang,
+        StaticModel = KS_SamgyeTang,
+        WorldStaticModel = KS_SamgyeTang_Ground,
+        CustomEatSound = EatingSoup,
+        Weight = 0.5,
+        HungerChange = -60,
+        Calories = 500,
+        Carbohydrates = 30,
+        Lipids = 4,
+        Proteins = 16,
+        Tooltip = 깊게 우려낸 뜨끈한 보양탕. 기운을 돋우며 상처 회복을 빠르게 도와준다.,
+        OnEat = OnEat_KS_Recovery_Injury,
+    }
+
+    item WitchSoup
+    {
+        DisplayName	= Witch Soup,
+        DisplayCategory = Food,
+        IsCookable = false,
+        Type = Food,
+        EatType = 2handbowl,
+        CustomEatSound = EatingSoup,
+        Icon = WitchSoup,
+        StaticModel = KS_WitchSoup,
+        WorldStaticModel = KS_WitchSoup_Ground,
+        Weight = 0.1,
+        HungerChange = -30,
+        UnhappyChange = -20,
+        StressChange = -20,
+        Calories = 50,
+        Carbohydrates = 30,
+        Lipids = 4,
+        Proteins = 1.8,
+        Tooltip = 신선한 채소를 가득 넣어 끓여낸 마녀수프. 몸과 마음을 가볍게 채워준다.,
+    }
+
+
+    /* ------ ------ ------ ------ ------ */
+
+    item MisutGaru
+    {
+        DisplayName = MisutGaru,
+        DisplayCategory = Food,
+        Type = Food,
+        FoodType = Coffee,
+        CustomContextMenu = Drink,
+        CustomEatSound = DrinkingFromMug,
+        Icon = MisutGaru,
+        StaticModel       = KS_MisutGaru,
+        WorldStaticModel  = KS_MisutGaru_Ground,
+        CanBePlaced = TRUE,
+        Weight = 0.1,
+        UnhappyChange = -80,
+        StressChange = -80,
+        BoredomChange = -80,
+        ThirstChange = -20,
+        Tooltip = 부드럽게 넘어가는 고소한 한 잔. 지친 마음을 달래준다.,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+    item VinChaud
+    {
+        DisplayName = VinChaud,
+        DisplayCategory = Food,
+        CustomContextMenu = Drink,
+        Type = Food,
+        FoodType = Coffee,
+        EatType = Mug,
+        Icon = VinChaud,
+        StaticModel = KS_VinChaud,
+        WorldStaticModel = KS_VinChaud_Ground,
+        CustomEatSound = DrinkingFromMug,
+        CanBePlaced = TRUE,
+        Weight = 0.5,
+        ThirstChange = -20,
+        ReduceInfectionPower = 50,
+        Tooltip = 몸을 녹여주는 따뜻한 벵쇼 한 잔. 몸을 데우고 질병을 서서히 완화한다.,
+        OnEat = OnEat_WarmFood,
+        
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+
+    item HW_License
+    {
+    DisplayCategory = Junk,
+    Weight	=	0,
+    Type	=	Normal,
+    DisplayName	= HW License,
+    Icon	=	HW License,
+    WorldStaticModel = HW License,
+    }
+
+
+
+    item GanjangBabBox
+    {
+    DisplayName = GanjangBab Box,
+    DisplayCategory = Normal,
+    Type = Normal,
+    Weight = 5,
+    Icon = GanjangBabBox,
+    WorldStaticModel = GanjangBabBox,
+    StaticModel = GanjangBabBox,
+    }
+
+    item WitchSoupBox
+    {
+    DisplayName = WitchSoup Box,
+    DisplayCategory = Normal,
+    Type = Normal,
+    Weight = 5,
+    Icon = WitchSoupBox,
+    WorldStaticModel = WitchSoupBox,
+    StaticModel = WitchSoupBox,
+    }
+
+    item MisutGaruBox
+    {
+    DisplayName = MisutGaru Box,
+    DisplayCategory = Normal,
+    Type = Normal,
+    Weight = 5,
+    Icon = MisutGaruBox,
+    WorldStaticModel = MisutGaruBox,
+    StaticModel = MisutGaruBox,
+    }
+
+    item SamgyeTangBox
+    {
+    DisplayName = SamgyeTang Box,
+    DisplayCategory = Normal,
+    Type = Normal,
+    Weight = 3,
+    Icon = SamgyeTangBox,
+    WorldStaticModel = SamgyeTangBox,
+    StaticModel = SamgyeTangBox,
+    }
+
+    item VinChaudBox
+    {
+    DisplayName = VinChaud Box,
+    DisplayCategory = Normal,
+    Type = Normal,
+    Weight = 3,
+    Icon = VinChaudBox,
+    WorldStaticModel = VinChaudBox,
+    StaticModel = VinChaudBox,
+    }
+
+}

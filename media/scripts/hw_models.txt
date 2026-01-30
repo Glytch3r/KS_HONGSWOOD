@@ -1,0 +1,157 @@
+module Base
+{
+
+    model KS_GanjangBab
+    {
+        mesh = WorldItems/KS_GanjangBab,
+        texture = WorldItems/KS_GanjangBab,
+        scale = 0.12,
+    }
+
+ 
+    model KS_GanjangBab_Ground
+    {
+        mesh = WorldItems/KS_GanjangBab_Ground,
+        texture = WorldItems/KS_GanjangBab,
+        scale = 0.12,
+    }
+
+
+    /* ------ ------ ------ ------ ------ */
+
+    model KS_WitchSoup
+    {
+        mesh = WorldItems/KS_WitchSoup,
+        texture = WorldItems/KS_WitchSoup,
+        scale = 0.12,
+    }
+
+    model KS_WitchSoup_Ground
+    {
+        mesh = WorldItems/KS_WitchSoup_Ground,
+        texture = WorldItems/KS_WitchSoup,
+        scale = 0.12,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+    model KS_SamgyeTang
+    {
+        mesh = WorldItems/KS_SamgyeTang,
+        texture = WorldItems/KS_SamgyeTang,
+        scale = 0.12,
+    }
+
+    model KS_SamgyeTang_Ground
+    {
+        mesh = WorldItems/KS_SamgyeTang_Ground,
+        texture = WorldItems/KS_SamgyeTang,
+        scale = 0.12,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+    model KS_MisutGaru
+    {
+        mesh = WorldItems/KS_MisutGaru,
+        texture = WorldItems/MisutGaru,
+        scale = 0.12,
+    }
+
+
+    model KS_MisutGaru_Ground
+    {
+        mesh = WorldItems/KS_MisutGaru_Ground,
+        texture = WorldItems/MisutGaru,
+        scale = 0.12,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+    model HW_License
+    {
+    mesh = WorldItems/CreditCard,
+    texture = WorldItems/HW License,
+    scale = 0.6,
+    }
+
+    model VinChaud
+    {
+    mesh = Worlditems/VinChaud,
+    texture = Worlditems/VinChaud,
+    scale = 0.0040,
+    }
+
+    model GanjangBab_Ground
+    {
+    mesh = Worlditems/GanjangBab,
+    texture = Worlditems/GanjangBab,
+    scale = 0.0040,
+    }
+
+    model WitchSoup_Ground
+    {
+    mesh = Worlditems/WitchSoup,
+    texture = Worlditems/WitchSoup,
+    scale = 0.0040,
+    }
+
+    model MisutGaru_Ground
+    {
+    mesh = Worlditems/MisutGaru,
+    texture = Worlditems/MisutGaru,
+    scale = 0.0035,
+    }
+
+    model SamgyeTang_Ground
+    {
+    mesh = Worlditems/SamgyeTang,
+    texture = Worlditems/SamgyeTang,
+    scale = 0.0040,
+    }
+
+    model VinChaud_Ground
+    {
+    mesh = Worlditems/VinChaud,
+    texture = Worlditems/VinChaud,
+    scale = 0.0040,
+    }
+
+    model GanjangBabBox
+    {
+    mesh = Worlditems/GanjangBab,
+    texture = Worlditems/GanjangBab,
+    scale = 0.0040,
+    }
+
+    model WitchSoupBox
+    {
+    mesh = Worlditems/WitchSoup,
+    texture = Worlditems/WitchSoup,
+    scale = 0.0040,
+    }
+
+    model MisutGaruBox
+    {
+    mesh = Worlditems/MisutGaruBox,
+    texture = Worlditems/MisutGaruBox,
+    scale = 0.0035,
+    }
+
+    model SamgyeTangBox
+    {
+    mesh = Worlditems/SamgyeTangBox,
+    texture = Worlditems/MisutGaruBox,
+    scale = 0.0040,
+    }
+
+    model VinChaudBox
+    {
+    mesh = Worlditems/VinChaudBox,
+    texture = Worlditems/VinChaudBox,
+    scale = 0.0040,
+    }
+
+
+}
+

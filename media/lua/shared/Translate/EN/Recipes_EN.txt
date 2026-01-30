@@ -1,0 +1,23 @@
+Recipes_EN = {
+	hwmake GanjangBab = "make Ganjang Bab",
+	hwmake GanjangBabBox = "pack Ganjang Bab",
+	hwopen GanjangBabBox = "open Ganjang Bab Box",
+
+	hwmake WitchSoup = "make Witch Soup",
+	hwmake WitchSoupBox = "pack Witch Soup",
+	hwopen WitchSoupBox = "open Witch Soup Box",
+
+	hwmake MisutGaru = "make Misut Garu",
+	hwmake MisutGaruBox = "pack Misut Garu",
+	hwopen MisutGaruBox = "open Misut Garu Box",
+
+	hwmake SamgyeTang = "make Misut Garu",
+	hwmake SamgyeTangBox = "pack SamgyeTang",
+	hwopen SamgyeTangBox = "open SamgyeTang Box",
+
+	hwmake VinChaud = "make VinChaud",
+    hwmake VinChaudBox = "pack VinChaud",
+    hwopen VinChaudBox = "open VinChaud Box",
+
+
+}

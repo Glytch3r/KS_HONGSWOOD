@@ -1,0 +1,160 @@
+module Base
+{
+
+	recipe hwmake GanjangBab
+	{
+		Soysauce/BigSoysauce;2,
+		Egg=6,
+		Rice/DriedBlackBeans/DriedChickpeas/DriedKidneyBeans/DriedLentils/DriedSplitPeas/DriedWhiteBeans;60,
+		Margarine/Butter;24,
+		keep HW_License,
+
+		Result:GanjangBab = 10,
+		Time:200.0,
+		Category:Cooking,
+		OnGiveXP : Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe hwmake GanjangBabBox
+	{
+		GanjangBab=100,
+		
+		Result:GanjangBabBox,
+		Time:30.0,
+		Category:Normal,
+	}
+
+	recipe hwopen GanjangBabBox
+	{
+		GanjangBabBox,
+
+		Result:GanjangBab=100,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+
+    recipe hwmake WitchSoup
+    {
+    	Potato=20,
+	    Salt/BigSalt/BigSalt2;10,
+	    Margarine/Butter;24,
+    	keep HW_License,
+	    Result:WitchSoup = 10,
+	    Time:200.0,
+	    Category:Cooking,
+	    OnGiveXP : Recipe.OnGiveXP.Cooking10,
+    }
+
+	recipe hwmake WitchSoupBox
+	{
+		WitchSoup=100,
+		Result:WitchSoupBox,
+		Time:30.0,
+		Category:Normal,
+	}
+
+	recipe hwopen WitchSoupBox
+	{
+		WitchSoupBox,
+		Result:WitchSoup=100,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+	
+	recipe hwmake MisutGaru
+	{
+	    Flour=10,
+		[Recipe.GetItemTypes.Sugar]/[BigSugar]/[BigSugar2];30,
+		Aluminum=1,
+		keep HW_License,
+		Result:MisutGaru = 10,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP : Recipe.OnGiveXP.Cooking10,
+	}
+
+	recipe hwmake MisutGaruBox
+	{
+		MisutGaru=100,
+		Result:MisutGaruBox,
+		Time:30.0,
+		Category:Normal,
+	}
+
+	recipe hwopen MisutGaruBox
+	{
+		MisutGaruBox,
+		Result:MisutGaru=100,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+
+	recipe hwmake SamgyeTang
+    {
+        Rabbitmeat = 10,
+        FishFillet = 10,
+        Ginseng = 10,
+        CleanedSmallOctopus = 10,
+    	Margarine/Butter;24,
+    	Salt/BigSalt/BigSalt2;10,
+    	Pepper/BigPepper/BigPepper2;10,
+    	Rice/DriedBlackBeans/DriedChickpeas/DriedKidneyBeans/DriedLentils/DriedSplitPeas/DriedWhiteBeans;60,
+    	keep HW_License,
+       	Result:SamgyeTang = 10,
+    	Time:1000.0,
+    	Category:Cooking,
+    	OnGiveXP : Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe hwmake SamgyeTangBox
+    {
+        SamgyeTang=10,
+
+        Result:SamgyeTangBox,
+        Time:30.0,
+        Category:Normal,
+    }
+
+    recipe hwopen SamgyeTangBox
+    {
+        SamgyeTangBox,
+        Result:SamgyeTang=10,
+        Time:30.0,
+        Category:Normal,
+        OnCreate:openbox,
+    }
+
+    recipe hwmake VinChaud
+    {
+        Wine/Wine2/RedWine/RedWineAged/RedWineAgedFully/WhiteWine/WhiteWineAged/WhiteWineAgedFully/WildBerryWine/RosehipWine/PineappleWine/StrawberryWine/PeachWine/PearWine/BananaWine/HoneyMead/HardCider = 10,
+    	Strewberrie = 100,
+    	[Recipe.GetItemTypes.Sugar]/[BigSugar]/[BigSugar2];30,
+    	Aluminum=10,
+    	keep HW_License,
+       	Result:VinChaud = 10,
+    	Time:1000.0,
+    	Category:Cooking,
+    	OnGiveXP : Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe hwmake VinChaudBox
+    {
+        VinChaud=10,
+        Result:VinChaudBox,
+        Time:30.0,
+        Category:Normal,
+    }
+
+    recipe hwopen VinChaudBox
+    {
+        VinChaudBox,
+        Result:VinChaud=10,
+        Time:30.0,
+        Category:Normal,
+        OnCreate:openbox,
+    }
+
+}
