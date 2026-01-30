@@ -67,6 +67,23 @@ module Base
     }
 
     /* ------ ------ ------ ------ ------ */
+    model KS_VinChaud
+    {
+        mesh = WorldItems/KS_VinChaud,
+        texture = WorldItems/KS_VinChaud,
+        scale = 0.12,
+    }
+
+
+    model KS_VinChaud_Ground
+    {
+        mesh = WorldItems/KS_VinChaud_Ground,
+        texture = WorldItems/VinChaud,
+        scale = 0.12,
+    }
+
+
+    /* ------ ------ ------ ------ ------ */
 
     model HW_License
     {
@@ -75,47 +92,7 @@ module Base
     scale = 0.6,
     }
 
-    model VinChaud
-    {
-    mesh = Worlditems/VinChaud,
-    texture = Worlditems/VinChaud,
-    scale = 0.0040,
-    }
-
-    model GanjangBab_Ground
-    {
-    mesh = Worlditems/GanjangBab,
-    texture = Worlditems/GanjangBab,
-    scale = 0.0040,
-    }
-
-    model WitchSoup_Ground
-    {
-    mesh = Worlditems/WitchSoup,
-    texture = Worlditems/WitchSoup,
-    scale = 0.0040,
-    }
-
-    model MisutGaru_Ground
-    {
-    mesh = Worlditems/MisutGaru,
-    texture = Worlditems/MisutGaru,
-    scale = 0.0035,
-    }
-
-    model SamgyeTang_Ground
-    {
-    mesh = Worlditems/SamgyeTang,
-    texture = Worlditems/SamgyeTang,
-    scale = 0.0040,
-    }
-
-    model VinChaud_Ground
-    {
-    mesh = Worlditems/VinChaud,
-    texture = Worlditems/VinChaud,
-    scale = 0.0040,
-    }
+    /* ------ ------ ------ ------ ------ */
 
     model GanjangBabBox
     {
