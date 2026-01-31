@@ -186,7 +186,7 @@ module Base
 
     item HotPacket
     {
-        DisplayName = Sun Packet Pack,
+        DisplayName = Sun Packet,
         DisplayCategory = Normal,
         Type = Normal,
        	Weight = 0.01,

@@ -109,7 +109,7 @@ module Base
     model KS_VinChaud_Ground
     {
         mesh = WorldItems/KS_VinChaud_Ground,
-        texture = WorldItems/VinChaud,
+        texture = WorldItems/KS_VinChaud,
         scale = 0.12,
     }
     /* ------ ------ ------ ------ ------ */
