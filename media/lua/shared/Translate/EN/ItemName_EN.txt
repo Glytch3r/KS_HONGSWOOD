@@ -7,7 +7,7 @@ ItemName_Base.GanjangBab = "Ganjang Bab",
 ItemName_Base.WitchSoupBox = "Witch Soup Box",
 ItemName_Base.WitchSoup = "Witch Soup",
 
-ItemName_Base.MisutGaruBox = "Misut Garu Box",
+ItemName_Base.MisutGaru_Container = "Misut Garu Box",
 ItemName_Base.MisutGaru = "Misut Garu",
 
 ItemName_Base.SamgyeTangBox = "SamgyeTang Box",

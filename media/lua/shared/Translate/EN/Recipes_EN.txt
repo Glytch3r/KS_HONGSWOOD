@@ -8,8 +8,8 @@ Recipes_EN = {
 	hwopen WitchSoupBox = "open Witch Soup Box",
 
 	hwmake MisutGaru = "make Misut Garu",
-	hwmake MisutGaruBox = "pack Misut Garu",
-	hwopen MisutGaruBox = "open Misut Garu Box",
+	hwmake MisutGaru_Container = "pack Misut Garu",
+	hwopen MisutGaru_Container = "open Misut Garu Box",
 
 	hwmake SamgyeTang = "make Misut Garu",
 	hwmake SamgyeTangBox = "pack SamgyeTang",

@@ -75,17 +75,17 @@ module Base
 		OnGiveXP : Recipe.OnGiveXP.Cooking10,
 	}
 
-	recipe hwmake MisutGaruBox
+	recipe hwmake MisutGaru_Container
 	{
 		MisutGaru=100,
-		Result:MisutGaruBox,
+		Result:MisutGaru_Container,
 		Time:30.0,
 		Category:Normal,
 	}
 
-	recipe hwopen MisutGaruBox
+	recipe hwopen MisutGaru_Container
 	{
-		MisutGaruBox,
+		MisutGaru_Container,
 		Result:MisutGaru=100,
 		Time:30.0,
 		Category:Normal,

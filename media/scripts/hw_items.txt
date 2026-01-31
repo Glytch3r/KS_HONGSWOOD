@@ -44,6 +44,18 @@ module Base
         OnEat = OnEat_KS_Recovery_Injury,
     }
 
+
+    item SamgyeTangBox
+    {
+        DisplayName = SamgyeTang Box,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 3,
+        Icon = SamgyeTangBox,
+        WorldStaticModel = SamgyeTangBox,
+        StaticModel = SamgyeTangBox,
+    }
+
     item WitchSoup
     {
         DisplayName	= Witch Soup,
@@ -99,6 +111,17 @@ module Base
         Tooltip = 부드럽게 넘어가는 고소한 한 잔. 지친 마음을 달래준다.,
     }
 
+    item MisutGaru_Container
+    {
+        DisplayName = MisutGaru Container,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 5,
+        Icon = MisutGaru_Container,
+        WorldStaticModel = KS_MisutGaru_Container,
+        StaticModel = KS_MisutGaru_Container,
+    }
+
     /* ------ ------ ------ ------ ------ */
 
     item VinChaud
@@ -127,59 +150,65 @@ module Base
 
     item HW_License
     {
-    DisplayCategory = Junk,
-    Weight	=	0,
-    Type	=	Normal,
-    DisplayName	= HW License,
-    Icon	=	HW License,
-    WorldStaticModel = HW License,
+        DisplayCategory = Junk,
+        Weight	=	0,
+        Type	=	Normal,
+        DisplayName	= HW License,
+        Icon	=	HW License,
+        WorldStaticModel = HW License,
     }
 
 
 
     item GanjangBabBox
     {
-    DisplayName = GanjangBab Box,
-    DisplayCategory = Normal,
-    Type = Normal,
-    Weight = 5,
-    Icon = GanjangBabBox,
-    WorldStaticModel = GanjangBabBox,
-    StaticModel = GanjangBabBox,
+        DisplayName = GanjangBab Box,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 5,
+        Icon = GanjangBabBox,
+        WorldStaticModel = GanjangBabBox,
+        StaticModel = GanjangBabBox,
     }
 
-
-    item MisutGaruBox
-    {
-    DisplayName = MisutGaru Box,
-    DisplayCategory = Normal,
-    Type = Normal,
-    Weight = 5,
-    Icon = MisutGaruBox,
-    WorldStaticModel = MisutGaruBox,
-    StaticModel = MisutGaruBox,
-    }
-
-    item SamgyeTangBox
-    {
-    DisplayName = SamgyeTang Box,
-    DisplayCategory = Normal,
-    Type = Normal,
-    Weight = 3,
-    Icon = SamgyeTangBox,
-    WorldStaticModel = SamgyeTangBox,
-    StaticModel = SamgyeTangBox,
-    }
 
     item VinChaudBox
     {
-    DisplayName = VinChaud Box,
-    DisplayCategory = Normal,
-    Type = Normal,
-    Weight = 3,
-    Icon = VinChaudBox,
-    WorldStaticModel = VinChaudBox,
-    StaticModel = VinChaudBox,
+        DisplayName = VinChaud Box,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 3,
+        Icon = VinChaudBox,
+        WorldStaticModel = VinChaudBox,
+        StaticModel = VinChaudBox,
+    }
+    /* ------ ------ ------ ------ ------ */
+
+    item HotPacket
+    {
+        DisplayName = Sun Packet Pack,
+        DisplayCategory = Normal,
+        Type = Normal,
+       	Weight = 0.01,
+        Icon = HotPacket,
+        WorldStaticModel = HotPacket,
+        StaticModel = HotPacket,
     }
 
+    item HotPacket_Pack
+    {
+        DisplayName = Sun Packet Pack,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 0.03,
+        Icon = HotPacket_Pack,
+        WorldStaticModel = HotPacket_Pack,
+        StaticModel = HotPacket_Pack,
+    }
+
+
 }
+
+
+
+

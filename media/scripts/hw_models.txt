@@ -11,12 +11,18 @@ module Base
         texture = WorldItems/KS_GanjangBab,
         scale = 0.12,
     }
-
  
     model KS_GanjangBab_Ground
     {
         mesh = WorldItems/KS_GanjangBab_Ground,
         texture = WorldItems/KS_GanjangBab,
+        scale = 0.12,
+    }
+
+    model KS_GanjangBab_Box
+    {
+        mesh = WorldItems/KS_Box,
+        texture = WorldItems/KS_GanjangBab_Box,
         scale = 0.12,
     }
 
@@ -84,6 +90,13 @@ module Base
         scale = 0.12,
     }
 
+    model KS_MisutGaru_Container
+    {
+        mesh = WorldItems/KS_MisutGaru_Container,
+        texture = WorldItems/KS_MisutGaru,
+        scale = 0.12,
+    }
+
     /* ------ ------ ------ ------ ------ */
     model KS_VinChaud
     {
@@ -99,52 +112,64 @@ module Base
         texture = WorldItems/VinChaud,
         scale = 0.12,
     }
+    /* ------ ------ ------ ------ ------ */
 
-
+    model HotPacket
+    {
+        mesh = WorldItems/ColdPack,
+        texture = WorldItems/KS_HotPack,
+        scale = 0.12,
+	}
+    model HotPacket_Pack
+    {
+        mesh = WorldItems/KS_HotPack_Pack,
+        texture = WorldItems/KS_HotPack,
+        scale = 0.12,
+	}
     /* ------ ------ ------ ------ ------ */
 
     model HW_License
     {
-    mesh = WorldItems/CreditCard,
-    texture = WorldItems/HW License,
-    scale = 0.6,
+        mesh = WorldItems/CreditCard,
+        texture = WorldItems/HW License,
+        scale = 0.6,
     }
 
     /* ------ ------ ------ ------ ------ */
 
     model GanjangBabBox
     {
-    mesh = Worlditems/GanjangBab,
-    texture = Worlditems/GanjangBab,
-    scale = 0.0040,
+        mesh = Worlditems/GanjangBab,
+        texture = Worlditems/GanjangBab,
+        scale = 0.0040,
     }
 
     model WitchSoupBox
     {
-    mesh = Worlditems/WitchSoup,
-    texture = Worlditems/WitchSoup,
-    scale = 0.0040,
+        mesh = Worlditems/WitchSoup,
+        texture = Worlditems/WitchSoup,
+        scale = 0.0040,
     }
 
-    model MisutGaruBox
+    model MisutGaru_Container
     {
-    mesh = Worlditems/MisutGaruBox,
-    texture = Worlditems/MisutGaruBox,
-    scale = 0.0035,
+        mesh = Worlditems/KS_MisutGaru_Container,
+        texture = Worlditems/MisutGaru_Container,
+        scale = 0.0035,
     }
 
     model SamgyeTangBox
     {
-    mesh = Worlditems/SamgyeTangBox,
-    texture = Worlditems/MisutGaruBox,
-    scale = 0.0040,
+        mesh = Worlditems/SamgyeTangBox,
+        texture = Worlditems/MisutGaru_Container,
+        scale = 0.0040,
     }
 
     model VinChaudBox
     {
-    mesh = Worlditems/VinChaudBox,
-    texture = Worlditems/VinChaudBox,
-    scale = 0.0040,
+        mesh = Worlditems/VinChaudBox,
+        texture = Worlditems/VinChaudBox,
+        scale = 0.0040,
     }
 
 
