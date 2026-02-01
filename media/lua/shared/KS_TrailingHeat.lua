@@ -63,10 +63,11 @@ end
 Events.OnPlayerUpdate.Remove(TrailingHeat.update)
 Events.OnPlayerUpdate.Add(TrailingHeat.update)
 
-function TrailingHeat.doTrailingHeat()
+function TrailingHeat.doTrailingHeat(sec)
+    sec = sec or 5
     local pl = getPlayer() 
     pl:getModData()['TrailingHeat'] = true
-    TrailingHeat.pause(30, function()
+    TrailingHeat.pause(sec, function()
         print('Warm Effect Woreoff')
         pl:getModData()['TrailingHeat'] = false
     end)

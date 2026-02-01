@@ -23,6 +23,19 @@ module Base
         Tooltip = 따뜻한 간장계란밥. 허기뿐 아니라 마음까지 채워준다.,
     }
 
+    item GanjangBab_Box
+    {
+        DisplayName = GanjangBab Box,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 5,
+        Icon = GanjangBab_Box,
+        WorldStaticModel = KS_GanjangBab_Box,
+        StaticModel = KS_GanjangBab_Box,
+    }
+    /* ------ ------ ------ ------ ------ */
+
+
     item SamgyeTang
     {
         DisplayName	= SamgyeTang,
@@ -52,9 +65,10 @@ module Base
         Type = Normal,
         Weight = 3,
         Icon = SamgyeTangBox,
-        WorldStaticModel = SamgyeTangBox,
-        StaticModel = SamgyeTangBox,
+        WorldStaticModel = KS_SamgyeTangBox,
+        StaticModel = KS_SamgyeTangBox,
     }
+    /* ------ ------ ------ ------ ------ */
 
     item WitchSoup
     {
@@ -78,13 +92,13 @@ module Base
         Tooltip = 신선한 채소를 가득 넣어 끓여낸 마녀수프. 몸과 마음을 가볍게 채워준다.,
     }
 
-    item WitchSoupBox
+    item WitchSoup_Box
     {
-        DisplayName = WitchSoup Box,
+        DisplayName = Witch Soup Box,
         DisplayCategory = Normal,
         Type = Normal,
         Weight = 5,
-        Icon = WitchSoupBox,
+        Icon = WitchSoup_Box,
         WorldStaticModel = KS_WitchSoup_Box,
         StaticModel = KS_WitchSoup_Box,
     }
@@ -145,6 +159,17 @@ module Base
         
     }
 
+
+    item VinChaudBox
+    {
+        DisplayName = VinChaud Box,
+        DisplayCategory = Normal,
+        Type = Normal,
+        Weight = 3,
+        Icon = VinChaudBox,
+        WorldStaticModel = VinChaudBox,
+        StaticModel = VinChaudBox,
+    }
     /* ------ ------ ------ ------ ------ */
 
 
@@ -159,41 +184,24 @@ module Base
     }
 
 
-
-    item GanjangBabBox
-    {
-        DisplayName = GanjangBab Box,
-        DisplayCategory = Normal,
-        Type = Normal,
-        Weight = 5,
-        Icon = GanjangBabBox,
-        WorldStaticModel = GanjangBabBox,
-        StaticModel = GanjangBabBox,
-    }
-
-
-    item VinChaudBox
-    {
-        DisplayName = VinChaud Box,
-        DisplayCategory = Normal,
-        Type = Normal,
-        Weight = 3,
-        Icon = VinChaudBox,
-        WorldStaticModel = VinChaudBox,
-        StaticModel = VinChaudBox,
-    }
     /* ------ ------ ------ ------ ------ */
 
-    item HotPacket
-    {
+
+
+	item HotPacket
+	{
+	    DisplayCategory = FirstAid,
+		Weight	=	0.01,
+		Type	=	Drainable,
+        UseDelta	=	0.1,
+		UseWhileEquipped	=	FALSE,
         DisplayName = Sun Packet,
-        DisplayCategory = Normal,
-        Type = Normal,
-       	Weight = 0.01,
-        Icon = HotPacket,
-        WorldStaticModel = HotPacket,
-        StaticModel = HotPacket,
-    }
+		Icon	= HotPacket,
+		StaticModel = KS_HotPacket,
+		WorldStaticModel = KS_HotPacket,
+		Medical = TRUE,
+        isCanCauseHeat = TRUE,
+	}
 
     item HotPacket_Pack
     {
@@ -202,8 +210,8 @@ module Base
         Type = Normal,
         Weight = 0.03,
         Icon = HotPacket_Pack,
-        WorldStaticModel = HotPacket_Pack,
-        StaticModel = HotPacket_Pack,
+        WorldStaticModel = KS_HotPacket_Pack,
+        StaticModel = KS_HotPacket_Pack,
     }
 
 

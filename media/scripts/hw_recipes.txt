@@ -33,6 +33,7 @@ module Base
 		Category:Normal,
 		OnCreate:openbox,
 	}
+    /* ------ ------ ------ ------ ------ */
 
     recipe hwmake WitchSoup
     {
@@ -49,19 +50,20 @@ module Base
 	recipe hwmake WitchSoupBox
 	{
 		WitchSoup=100,
-		Result:WitchSoupBox,
+		Result:WitchSoup_Box,
 		Time:30.0,
 		Category:Normal,
 	}
 
 	recipe hwopen WitchSoupBox
 	{
-		WitchSoupBox,
+		WitchSoup_Box,
 		Result:WitchSoup=100,
 		Time:30.0,
 		Category:Normal,
 		OnCreate:openbox,
 	}
+    /* ------ ------ ------ ------ ------ */
 	
 	recipe hwmake MisutGaru
 	{
@@ -91,6 +93,7 @@ module Base
 		Category:Normal,
 		OnCreate:openbox,
 	}
+    /* ------ ------ ------ ------ ------ */
 
 	recipe hwmake SamgyeTang
     {
@@ -126,6 +129,7 @@ module Base
         Category:Normal,
         OnCreate:openbox,
     }
+    /* ------ ------ ------ ------ ------ */
 
     recipe hwmake VinChaud
     {
@@ -157,4 +161,20 @@ module Base
         OnCreate:openbox,
     }
 
+    recipe hwmake HotPacket_Pack
+    {
+        HotPacket=3,
+        Result:HotPacket_Pack,
+        Time:30.0,
+        Category:Normal,
+    }
+
+    recipe hwopen HotPacket_Pack
+    {
+        HotPacket_Pack,
+        Result:HotPacket=3,
+        Time:30.0,
+        Category:Normal,
+        OnCreate:openbox,
+    }
 }
