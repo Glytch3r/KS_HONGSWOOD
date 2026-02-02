@@ -19,15 +19,14 @@ module Base
 	{
 		GanjangBab=100,
 		
-		Result:GanjangBabBox,
+		Result:GanjangBab_Box,
 		Time:30.0,
 		Category:Normal,
 	}
 
 	recipe hwopen GanjangBabBox
 	{
-		GanjangBabBox,
-
+		GanjangBab_Box,
 		Result:GanjangBab=100,
 		Time:30.0,
 		Category:Normal,
