@@ -26,7 +26,7 @@ module Base
     item GanjangBab_Box
     {
         DisplayName = GanjangBab Box,
-        DisplayCategory = Normal,
+        DisplayCategory = Food,
         Type = Normal,
         Weight = 5,
         Icon = GanjangBab_Box,
@@ -61,7 +61,7 @@ module Base
     item SamgyeTangBox
     {
         DisplayName = SamgyeTang Box,
-        DisplayCategory = Normal,
+        DisplayCategory = Food,
         Type = Normal,
         Weight = 3,
         Icon = SamgyeTangBox,
@@ -95,7 +95,7 @@ module Base
     item WitchSoup_Box
     {
         DisplayName = Witch Soup Box,
-        DisplayCategory = Normal,
+        DisplayCategory = Food,
         Type = Normal,
         Weight = 5,
         Icon = WitchSoup_Box,
@@ -128,7 +128,7 @@ module Base
     item MisutGaru_Container
     {
         DisplayName = MisutGaru Container,
-        DisplayCategory = Normal,
+        DisplayCategory = Food,
         Type = Normal,
         Weight = 5,
         Icon = MisutGaru_Container,
@@ -163,12 +163,12 @@ module Base
     item VinChaudBox
     {
         DisplayName = VinChaud Box,
-        DisplayCategory = Normal,
+        DisplayCategory = Food,
         Type = Normal,
         Weight = 3,
         Icon = VinChaudBox,
-        WorldStaticModel = VinChaudBox,
-        StaticModel = VinChaudBox,
+        WorldStaticModel = KS_VinChaud_Box,
+        StaticModel = KS_VinChaud_Box,
     }
     /* ------ ------ ------ ------ ------ */
 
@@ -187,26 +187,26 @@ module Base
     /* ------ ------ ------ ------ ------ */
 
 
-
+    
 	item HotPacket
 	{
-	    DisplayCategory = FirstAid,
+	    DisplayCategory = Household,
 		Weight	=	0.01,
-		Type	=	Drainable,
+		Type	=	Normal,
         UseDelta	=	0.1,
 		UseWhileEquipped	=	FALSE,
         DisplayName = Sun Packet,
 		Icon	= HotPacket,
 		StaticModel = KS_HotPacket,
 		WorldStaticModel = KS_HotPacket,
-		Medical = TRUE,
+		/* Medical = TRUE, */
         isCanCauseHeat = TRUE,
 	}
 
     item HotPacket_Pack
     {
         DisplayName = Sun Packet Pack,
-        DisplayCategory = Normal,
+        DisplayCategory = Household,
         Type = Normal,
         Weight = 0.03,
         Icon = HotPacket_Pack,

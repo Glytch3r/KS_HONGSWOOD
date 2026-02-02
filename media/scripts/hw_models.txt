@@ -114,7 +114,7 @@ module Base
         scale = 0.18,
     }
 
-    model VinChaudBox
+    model KS_VinChaud_Box
     {
         mesh = Worlditems/KS_Box,
         texture = Worlditems/KS_VinChaud_Box,
