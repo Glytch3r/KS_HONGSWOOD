@@ -38,6 +38,8 @@ function TrailingHeat.invContext(plNum, context, items)
     if not TrailingHeat then return end
     local opt = context:addOptionOnTop("Use Sun Packet", item, function() 
         TrailingHeat.doTrailingHeat(30)
+        pl:setVariable("Ext", "WipeLeftArm");
+        pl:reportEvent("EventDoExt");
         ISRemoveItemTool.removeItem(item, plNum)
     end)
 
