@@ -1,0 +1,143 @@
+module Base
+{
+    /* ------ ------ ------ ------ ------ */
+
+	model KS_EnergyCanStatic_1
+    {
+        mesh = Can_hand,
+        texture = WorldItems/KS_EnergyCan_1,
+    }
+    
+	model KS_EnergyCan_1
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyCan_1,
+		scale = 0.005,
+	}
+
+	model KS_EnergyEmptyCan_1
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyEmptyCan_1,
+		scale = 0.005,
+	}
+	
+    /* ------ ------ ------ ------ ------ */
+	model KS_EnergyCanStatic_2
+    {
+        mesh = Can_hand,
+        texture = WorldItems/KS_EnergyCan_2,
+    }
+    
+	model KS_EnergyCan_2
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyCan_2,
+		scale = 0.005,
+	}
+
+	model KS_EnergyEmptyCan_2
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyEmptyCan_2,
+		scale = 0.005,
+	}
+    /* ------ ------ ------ ------ ------ */
+	model KS_EnergyCanStatic_3
+    {
+        mesh = Can_hand,
+        texture = WorldItems/KS_EnergyCan_3,
+    }
+    
+	model KS_EnergyCan_3
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyCan_3,
+		scale = 0.005,
+	}
+
+	model KS_EnergyEmptyCan_3
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyEmptyCan_3,
+		scale = 0.005,
+	}
+    /* ------ ------ ------ ------ ------ */
+	model KS_EnergyCanStatic_4
+    {
+        mesh = Can_hand,
+        texture = WorldItems/KS_EnergyCan_4,
+    }
+    
+	model KS_EnergyCan_4
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyCan_4,
+		scale = 0.005,
+	}
+
+	model KS_EnergyEmptyCan_4
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyEmptyCan_4,
+		scale = 0.005,
+	}
+
+    /* ------ ------ ------ ------ ------ */
+	model KS_EnergyCanStatic_5
+    {
+        mesh = Can_hand,
+        texture = WorldItems/KS_EnergyCan_5,
+    }
+    
+	model KS_EnergyCan_5
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyCan_5,
+		scale = 0.005,
+	}
+
+	model KS_EnergyEmptyCan_5
+	{
+		mesh = WorldItems/KS_EnergyCan,
+		texture = WorldItems/KS_EnergyEmptyCan_5,
+		scale = 0.005,
+	}
+    /* ------ ------ ------ ------ ------ */
+
+
+
+    /* ------ ------ ------ ------ ------ */
+
+    model KS_EnergyBox_1
+    {
+        mesh = WorldItems/KS_EnergyBox,
+        texture = WorldItems/KS_EnergyCan_1,
+        scale = 0.14,
+    }
+    model KS_EnergyBox_2
+    {
+        mesh = WorldItems/KS_EnergyBox,
+        texture = WorldItems/KS_EnergyCan_2,
+        scale = 0.14,
+    }
+    model KS_EnergyBox_3
+    {
+        mesh = WorldItems/KS_EnergyBox,
+        texture = WorldItems/KS_EnergyCan_3,
+        scale = 0.14,
+    }
+    model KS_EnergyBox_4
+    {
+        mesh = WorldItems/KS_EnergyBox,
+        texture = WorldItems/KS_EnergyCan_4,
+        scale = 0.14,
+    }
+    model KS_EnergyBox_5
+    {
+        mesh = WorldItems/KS_EnergyBox,
+        texture = WorldItems/KS_EnergyCan_5,
+        scale = 0.14,
+    }
+}
+

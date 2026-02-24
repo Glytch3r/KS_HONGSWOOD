@@ -1,0 +1,276 @@
+module Base
+{
+
+
+	item KS_EnergyCan_1
+	{
+		ReplaceOnUse = KS_EnergyEmptyCan_1,
+		StaticModel = KS_EnergyCanStatic_1,
+		WorldStaticModel = KS_EnergyCan_1,
+		Icon = EnergyCan_1,
+		
+		DisplayName = KS Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,		
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+            FatigueChange = -50,
+			HungerChange = -8,
+			ThirstChange = -60,
+			UnhappyChange = -10,
+			Calories =30,
+			Carbohydrates = 7,
+			Lipids = 0,
+			Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		Tags = HasMetal,		
+	}
+
+	item KS_EnergyEmptyCan_1
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	= Empty Tin Can,
+        Icon = EnergyCan_1,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = KS_EnergyEmptyCan_1,
+    }
+    /* ------ ------ ------ ------ ------ */
+
+	item KS_EnergyCan_2
+	{
+		ReplaceOnUse = KS_EnergyEmptyCan_2,
+		StaticModel = KS_EnergyCanStatic_2,
+		WorldStaticModel = KS_EnergyCan_2,
+		Icon = EnergyCan_2,
+		
+		DisplayName = KS Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,		
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+            FatigueChange = -50,
+			HungerChange = -8,
+			ThirstChange = -60,
+			UnhappyChange = -10,
+			Calories =30,
+			Carbohydrates = 7,
+			Lipids = 0,
+			Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		Tags = HasMetal,		
+	}
+    
+	item KS_EnergyEmptyCan_2
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	= Empty Tin Can,
+        Icon = EnergyCan_2,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = KS_EnergyEmptyCan_2,
+    }
+    /* ------ ------ ------ ------ ------ */
+
+	item KS_EnergyCan_3
+	{
+		ReplaceOnUse = KS_EnergyEmptyCan_3,
+		StaticModel = KS_EnergyCanStatic_3,
+		WorldStaticModel = KS_EnergyCan_3,
+		Icon = EnergyCan_3,
+		
+		DisplayName = KS Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,		
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+            FatigueChange = -50,
+			HungerChange = -8,
+			ThirstChange = -60,
+			UnhappyChange = -10,
+			Calories =30,
+			Carbohydrates = 7,
+			Lipids = 0,
+			Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		Tags = HasMetal,		
+	}
+    
+	item KS_EnergyEmptyCan_3
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	= Empty Tin Can,
+        Icon = EnergyCan_3,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = KS_EnergyEmptyCan_3,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+	item KS_EnergyCan_4
+	{
+		ReplaceOnUse = KS_EnergyEmptyCan_4,
+		StaticModel = KS_EnergyCanStatic_4,
+		WorldStaticModel = KS_EnergyCan_4,
+		Icon = EnergyCan_4,
+		
+		DisplayName = KS Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,		
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+            FatigueChange = -50,
+			HungerChange = -8,
+			ThirstChange = -60,
+			UnhappyChange = -10,
+			Calories =30,
+			Carbohydrates = 7,
+			Lipids = 0,
+			Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		Tags = HasMetal,		
+	}
+    
+	item KS_EnergyEmptyCan_4
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	= Empty Tin Can,
+        Icon = EnergyCan_4,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = KS_EnergyEmptyCan_4,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+
+	item KS_EnergyCan_5
+	{
+		ReplaceOnUse = KS_EnergyEmptyCan_5,
+		StaticModel = KS_EnergyCanStatic_5,
+		WorldStaticModel = KS_EnergyCan_5,
+		Icon = EnergyCan_5,
+		
+		DisplayName = KS Energy Drink,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,		
+		EvolvedRecipe = Beverage:4;Beverage2:4,
+		FoodType = SoftDrink,
+		CantBeFrozen = TRUE,
+		EatType = popcan,
+		Packaged = TRUE,
+            FatigueChange = -50,
+			HungerChange = -8,
+			ThirstChange = -60,
+			UnhappyChange = -10,
+			Calories =30,
+			Carbohydrates = 7,
+			Lipids = 0,
+			Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromCan,
+		Tags = HasMetal,		
+	}
+    
+	item KS_EnergyEmptyCan_5
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	= Empty Tin Can,
+        Icon = EnergyCan_5,
+        MetalValue = 20,
+        StaticModel = CanOpen,
+        WorldStaticModel = KS_EnergyEmptyCan_5,
+    }
+
+
+    /* ------ ------ ------ ------ ------ */
+
+
+
+    /* ------ ------ ------ ------ ------ */
+
+    item KS_EnergyBox_1
+    {
+        DisplayName = KS Energy Drink Box,
+        DisplayCategory = Food,
+        Type = Normal,
+        Weight = 7.2,
+        Icon = EnergyBox_1,
+        WorldStaticModel = KS_EnergyBox_1,
+    }
+
+    item KS_EnergyBox_2
+    {
+        DisplayName = KS Energy Drink Box,
+        DisplayCategory = Food,
+        Type = Normal,
+        Weight = 7.2,
+        Icon = EnergyBox_2,
+        WorldStaticModel = KS_EnergyBox_2,
+    }
+
+    item KS_EnergyBox_3
+    {
+        DisplayName = KS Energy Drink Box,
+        DisplayCategory = Food,
+        Type = Normal,
+        Weight = 7.2,
+        Icon = EnergyBox_3,
+        WorldStaticModel = KS_EnergyBox_3,
+    }
+
+    item KS_EnergyBox_4
+    {
+        DisplayName = KS Energy Drink Box,
+        DisplayCategory = Food,
+        Type = Normal,
+        Weight = 7.2,
+        Icon = EnergyBox_4,
+        WorldStaticModel = KS_EnergyBox_4,
+    }
+
+    item KS_EnergyBox_5
+    {
+        DisplayName = KS Energy Drink Box,
+        DisplayCategory = Food,
+        Type = Normal,
+        Weight = 7.2,
+        Icon = EnergyBox_5,
+        WorldStaticModel = KS_EnergyBox_5,
+    }
+}
+
+
+
+

@@ -1,0 +1,91 @@
+module Base
+{
+
+    recipe hwmake KS_EnergyCan_1
+    {
+        KS_EnergyCan_1=24,
+        Result:KS_EnergyBox_1,
+        Time:30.0,
+        Category:Normal,
+    }
+
+    recipe hwopen KS_EnergyCan_1
+    {
+        KS_EnergyBox_1,
+        Result:KS_EnergyCan_1=24,
+        Time:30.0,
+        Category:Normal,
+        OnCreate:openbox,
+    }
+
+    /* ------ ------ ------ ------ ------ */
+	recipe hwmake KS_EnergyCan_2
+		{
+			KS_EnergyCan_2=24,
+			Result:KS_EnergyBox_2,
+			Time:30.0,
+			Category:Normal,
+		}
+
+	recipe hwopen KS_EnergyCan_2
+	{
+		KS_EnergyBox_2,
+		Result:KS_EnergyCan_2=24,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+
+    /* ------ ------ ------ ------ ------ */
+	recipe hwmake KS_EnergyCan_3
+	{
+		KS_EnergyCan_3=24,
+		Result:KS_EnergyBox_3,
+		Time:30.0,
+		Category:Normal,
+	}
+
+	recipe hwopen KS_EnergyCan_3
+	{
+		KS_EnergyBox_3,
+		Result:KS_EnergyCan_3=24,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+
+    /* ------ ------ ------ ------ ------ */
+	recipe hwmake KS_EnergyCan_4
+	{
+		KS_EnergyCan_4=24,
+		Result:KS_EnergyBox_4,
+		Time:30.0,
+		Category:Normal,
+	}
+
+	recipe hwopen KS_EnergyCan_4
+	{
+		KS_EnergyBox_4,
+		Result:KS_EnergyCan_4=24,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+    /* ------ ------ ------ ------ ------ */
+	recipe hwmake KS_EnergyCan_5
+	{
+		KS_EnergyCan_5=24,
+		Result:KS_EnergyBox_5,
+		Time:30.0,
+		Category:Normal,
+	}
+
+	recipe hwopen KS_EnergyCan_5
+	{
+		KS_EnergyBox_5,
+		Result:KS_EnergyCan_5=24,
+		Time:30.0,
+		Category:Normal,
+		OnCreate:openbox,
+	}
+}
